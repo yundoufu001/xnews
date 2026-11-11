@@ -14,6 +14,13 @@
   "date": "2026-11-10"
  },
  {
+  "id": "gemini-4-carbon-available",
+  "title": "Gemini 4 Carbon 已上线，内部团队漏洞召回提升 25% 以上",
+  "dek": "Gemini 4 Carbon 上线 Gemini API、AI Studio 与 Antigravity：Google 内部团队开源漏洞召回提升 25% 以上，为 AlphaFold 3 找到的远程蛋白同源物多 40 倍。",
+  "author": "Philipp Schmid",
+  "date": "2026-11-10"
+ },
+ {
   "id": "deepmind-signal-formal-verification",
   "title": "一个月验完 Signal 的生产代码，DeepMind 把形式化验证做到了设备上的机器码",
   "dek": "Pushmeet Kohli 宣布，Google DeepMind 用新框架 AlphaProof Code 证明了 Signal 协议底层机器码的关键安全性质，并把形式化规范与验证产物全部开源。",
