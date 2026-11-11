@@ -1,0 +1,16 @@
+[
+ {
+  "id": "deepmind-signal-formal-verification",
+  "title": "一个月验完 Signal 的生产代码，DeepMind 把形式化验证做到了设备上的机器码",
+  "dek": "Pushmeet Kohli 宣布，Google DeepMind 用新框架 AlphaProof Code 证明了 Signal 协议底层机器码的关键安全性质，并把形式化规范与验证产物全部开源。",
+  "author": "Pushmeet Kohli",
+  "date": "2026-11-10"
+ },
+ {
+  "id": "mka-multimodal-knowledge-agent",
+  "title": "每题要专业人士做 3 到 8 小时，MKA 这套基准专考 Agent 干文件活",
+  "dek": "Philipp Schmid 与 Artificial Analysis 发布 MKA 基准：200 个专家撰写的任务、每题约 70 项评分细则、所有模型同框架同预算，Gemini 4 Carbon 质量第二、成本约为第一名的五分之一。",
+  "author": "Philipp Schmid",
+  "date": "2026-11-10"
+ }
+]
