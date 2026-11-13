@@ -1,5 +1,26 @@
 [
  {
+  "id": "anthropic-ipo-offering-site",
+  "title": "Anthropic 公开 IPO 官网，招股说明书已递交 SEC",
+  "dek": "Anthropic 发布首次公开募股专属页面 ipo.anthropic.com，注册声明已递交 SEC 但尚未生效，生效前不得买卖，帖子本身不构成卖出要约。",
+  "author": "Anthropic",
+  "date": "2026-11-12"
+ },
+ {
+  "id": "gemini-4-hydrogen-release",
+  "title": "Gemini 4 Hydrogen 上线：Terminal-Bench 4.0 得分 57%",
+  "dek": "Google DeepMind 的 Gemini 4 Hydrogen 上线 Google AI Studio 与 Gemini API，Terminal-Bench 4.0 得分 57%，思考档位四档，定价 1.50 美元和 7.50 美元，AI Studio 与 API 提供免费档。",
+  "author": "Philipp Schmid",
+  "date": "2026-11-12"
+ },
+ {
+  "id": "openai-daybreak-cyber-products",
+  "title": "OpenAI 推出 Daybreak 两款网络安全产品",
+  "dek": "OpenAI 总裁 Greg Brockman 宣布推出两款网络安全产品 Daybreak Defense Factory 与 Daybreak Red Team，定位是把前沿网络安全能力变成企业可用的防御工具。",
+  "author": "Greg Brockman",
+  "date": "2026-11-12"
+ },
+ {
   "id": "businesses-in-chatgpt-beta",
   "title": "ChatGPT 推出商家功能：认领商家信息，还能建商家助手",
   "dek": "OpenAI 宣布 Businesses in ChatGPT 进入测试：商家可以认领自己的商家信息、管理展示内容、查看用户互动情况，符合条件的商家还能搭建 Business Agent 回答顾客问题。",
