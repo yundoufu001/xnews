@@ -1,5 +1,26 @@
 [
  {
+  "id": "anthropic-ipo-fireside-chat-dimon",
+  "title": "Anthropic IPO 路演直播：Amodei 对话摩根大通 CEO Jamie Dimon",
+  "dek": "Anthropic 安排 IPO 路演直播，CEO Dario Amodei 与摩根大通 CEO Jamie Dimon 对谈，美国东部时间中午 12 点在 YouTube 直播；招股说明书已交 SEC，可在 EDGAR 免费查阅。",
+  "author": "Anthropic",
+  "date": "2026-11-13"
+ },
+ {
+  "id": "box-gemini-4-hydrogen-eval",
+  "title": "Box 实测 Gemini 4 Hydrogen：准确率高 5 个百分点，用时不到一半",
+  "dek": "Box 用 Box AI Complex Work Eval 早期测试 Gemini 4 Hydrogen：准确率比 Gemini 3.8 Flash 高 5 个百分点，用时不到一半，典型任务 token 用量少约 12%，不久后进入 Box AI Studio。",
+  "author": "Aaron Levie",
+  "date": "2026-11-12"
+ },
+ {
+  "id": "neuro-symbolic-to-signal-lean-proofs",
+  "title": "十年之间：从神经符号程序合成到 600 万行 Lean 证明验证 Signal",
+  "dek": "Pushmeet Kohli 回顾十年跨度：2016 年神经符号程序合成论文只会写表格小宏，2026 年大语言模型已生成超 600 万行 Lean 证明，验证 Signal 加密协议直至机器码层面。",
+  "author": "Pushmeet Kohli",
+  "date": "2026-11-13"
+ },
+ {
   "id": "anthropic-ipo-offering-site",
   "title": "Anthropic 公开 IPO 官网，招股说明书已递交 SEC",
   "dek": "Anthropic 发布首次公开募股专属页面 ipo.anthropic.com，注册声明已递交 SEC 但尚未生效，生效前不得买卖，帖子本身不构成卖出要约。",
