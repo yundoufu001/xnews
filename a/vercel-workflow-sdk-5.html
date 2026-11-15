@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vercel 发布 Workflow SDK 5：首步更快，耐久日志可复用于任意 Agent 框架</title><style>body{font-family:Georgia,"Songti SC",serif;max-width:720px;margin:0 auto;padding:24px 18px 60px;color:#1a1a1a;background:#fdfcf9;line-height:1.85}
+article{border-top:3px solid #111;padding-top:8px;margin-bottom:48px}h1{font-size:25px;line-height:1.4}h2{font-size:19px;margin-top:28px}
+.dek{color:#555}.meta{color:#888;font-size:13px}figure img{max-width:100%}figcaption{color:#888;font-size:12px}
+a{color:#0b5cad}.src a{word-break:break-all}.orig{color:#444;font-size:14px}.hd{color:#888;font-size:13px;letter-spacing:2px}
+.card{border-top:1px solid #ddd;padding:14px 0}.card h3{margin:4px 0;font-size:19px}.card p{margin:4px 0;color:#555}</style></head><body><p class="hd">海外长文 · 中文改写</p><article><h1>Vercel 发布 Workflow SDK 5：首步更快，耐久日志可复用于任意 Agent 框架</h1>
+<p class="dek">Vercel 发布 Workflow SDK 5 与 Vercel Workflows：首步与步间等待大幅缩短，加密与安全加码，底层耐久日志独立为 durable-harness，可供任何 Agent 框架复用。</p>
+<p class="meta">Guillermo Rauch（@rauchg）· 原帖 2026-11-13T16:23:16+00:00 · 收录 2026-11-15T08:30:00+08:00</p>
+<p>Guillermo Rauch 宣布 Vercel 发布 Workflow SDK 5 与 Vercel Workflows。他在帖子里称，这是 Agent 方向上的一大步。</p>
+<h2>首步更快，步与步之间的等待更短</h2>
+<p>帖子列出的第一项改进是速度：“time to first step”与“time between steps”都有大幅提升。也就是说，工作流启动后迈出第一步更快，每一步之间的等待也更短。</p>
+<h2>加密与安全加码，可靠性经过大规模验证</h2>
+<p>第二项是安全：团队在加密与安全上加了码。第三项是可靠性，帖子的说法是，整个系统的可靠性已经在很大规模下得到验证，团队打磨了许多细微之处，也演练了不少灾难恢复场景。</p>
+<h2>耐久日志独立出来，任何 Agent 框架都能复用</h2>
+<p>最后一项是架构上的变化：底层的耐久日志现在可以复用到任何 Agent 框架里，由此诞生了 durable-harness。帖子没有给出具体的性能数字，上面几项都是作者的定性描述。</p>
+
+<p class="src">原文：<a href="https://x.com/rauchg/status/2121277727940776114">https://x.com/rauchg/status/2121277727940776114</a></p>
+<details><summary>英文原文（完整保留）</summary><p class="orig">Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents.<br><br>◾ The &#x27;time to first step&#x27; and &#x27;time between steps&#x27; have massively improved.<br><br>◾ We doubled down on encryption and security.<br><br>◾ The reliability of the overall system has been proven at massive scale. We&#x27;ve ironed out many subtle details and exercised many disaster-recovery scenarios.<br><br>◾ We made the underlying durability log reusable for any agent harness. 𝚍𝚞𝚛𝚊𝚋𝚕𝚎-𝚑𝚊𝚛𝚗𝚎𝚜𝚜 was born.<br><br>Check it out:</p></details>
+</article></body></html>

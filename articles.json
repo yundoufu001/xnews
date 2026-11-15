@@ -1,5 +1,26 @@
 [
  {
+  "id": "ocr-benchmark-debate",
+  "title": "OCR 基准之争：只看总分会误导选型，先看 3 到 5 条失败轨迹",
+  "dek": "Hamel Husain 指出 OCR 基准争论的根源是总分在选型里话语权过大，建议做判断前先看 3 到 5 个失败任务的轨迹，自己去看数据。",
+  "author": "Hamel Husain",
+  "date": "2026-11-14"
+ },
+ {
+  "id": "teamwork-gemini-4-open-challenges",
+  "title": "Gemini 4 与 Teamwork 解开 10 多道开放数学难题，含 5000 万行 Lean 4 证明",
+  "dek": "Google 的 Teamwork 与 DeepReview 在 Gemini 4 驱动下解开 10 多道开放数学难题，包括 5000 万行 Lean 4 证明；核磁共振结构解析 top-1 准确率 95%，TPU 内核提速 4.09 倍，工具已通过 Antigravity 对外开放。",
+  "author": "Vahab Mirrokni",
+  "date": "2026-11-13"
+ },
+ {
+  "id": "vercel-workflow-sdk-5",
+  "title": "Vercel 发布 Workflow SDK 5：首步更快，耐久日志可复用于任意 Agent 框架",
+  "dek": "Vercel 发布 Workflow SDK 5 与 Vercel Workflows：首步与步间等待大幅缩短，加密与安全加码，底层耐久日志独立为 durable-harness，可供任何 Agent 框架复用。",
+  "author": "Guillermo Rauch",
+  "date": "2026-11-13"
+ },
+ {
   "id": "anthropic-ipo-fireside-chat-dimon",
   "title": "Anthropic IPO 路演直播：Amodei 对话摩根大通 CEO Jamie Dimon",
   "dek": "Anthropic 安排 IPO 路演直播，CEO Dario Amodei 与摩根大通 CEO Jamie Dimon 对谈，美国东部时间中午 12 点在 YouTube 直播；招股说明书已交 SEC，可在 EDGAR 免费查阅。",
