@@ -1,5 +1,26 @@
 [
  {
+  "id": "lecun-ai-benefits-vs-doom",
+  "title": "LeCun：AI 收益真实，末日概率毫无依据，超级智能会在护栏内为人类工作",
+  "dek": "Yann LeCun 认为 AI 的收益已经真实存在，坏的副作用至今很小；末日场景与 p(doom) 估计站不住脚，智能不等于权力与统治，超级智能会在推理时安全护栏的约束下为人类工作，他把这套方案称为目标驱动 AI 架构。",
+  "author": "Yann LeCun",
+  "date": "2026-11-15"
+ },
+ {
+  "id": "levelsio-ikea-catalogue-interior-ai-3d",
+  "title": "Levelsio 把宜家全目录 3D 导入 Interior AI：户型图或走一圈视频就能生成室内",
+  "dek": "@levelsio 把宜家整个产品目录以 3D 形式导入 Interior AI，接下来还会导入更多家具品牌；用户现在可以导入自家户型图，或拍一段走一圈的视频来生成室内 3D。",
+  "author": "@levelsio",
+  "date": "2026-11-14"
+ },
+ {
+  "id": "rauchg-uisdk-winamp-gemini-argon",
+  "title": "Rauch 两条提示词复刻 Winamp：14 项 UI SDK 行为开箱即用",
+  "dek": "Guillermo Rauch 用两条提示词加 fx 与 Gemini Argon，纯 Web Components 复刻 Winamp 界面：Agent 开箱复用 14 项 UI SDK 行为，从窗口缩放、拖拽到 10 段均衡器与 WebMCP 控制，演示源已附在原帖。",
+  "author": "Guillermo Rauch",
+  "date": "2026-11-15"
+ },
+ {
   "id": "ocr-benchmark-debate",
   "title": "OCR 基准之争：只看总分会误导选型，先看 3 到 5 条失败轨迹",
   "dek": "Hamel Husain 指出 OCR 基准争论的根源是总分在选型里话语权过大，建议做判断前先看 3 到 5 个失败任务的轨迹，自己去看数据。",
