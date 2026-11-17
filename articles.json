@@ -1,5 +1,26 @@
 [
  {
+  "id": "openai-chatgpt-academic-researchers-200k",
+  "title": "OpenAI 把免费前沿模型开放给 20 万科学家，11 月 23 日起申请",
+  "dek": "OpenAI 扩大 ChatGPT for Academic Researchers 计划：全球最多 20 万名科学家免费使用前沿模型并配培训与支持，申请 11 月 23 日开放，默认不拿项目数据训练模型。",
+  "author": "OpenAI",
+  "date": "2026-11-16"
+ },
+ {
+  "id": "openai-chatgpt-healthcare-computer-use-plugins",
+  "title": "ChatGPT for Healthcare 再推进：更强的计算机使用 Agent 与 20 多个医疗插件",
+  "dek": "OpenAI 宣布 ChatGPT for Healthcare 继续推进：计算机使用 Agent 更强、临床回答更扎实，新增 20 多个医疗插件，Abridge、Ambience、Cigna 与 CVS Health 已把模型用在事先授权、转诊与出院规划上。",
+  "author": "OpenAI",
+  "date": "2026-11-16"
+ },
+ {
+  "id": "rauchg-xeet-pixel-perfect-x-renderer",
+  "title": "Rauch 发布 xeet：Rust 写成的像素级 X 帖子渲染器，约 1 毫秒出图",
+  "dek": "Guillermo Rauch 发布 xeet：Rust 与 WebAssembly 写成的 X 帖子渲染器，不依赖浏览器、网络与系统字体，约 1 毫秒出图，复现 Blink 与 HarfBuzz 的排版细节，靠 Oracle 核对数万条规则来自我验证。",
+  "author": "Guillermo Rauch",
+  "date": "2026-11-16"
+ },
+ {
   "id": "lecun-ai-benefits-vs-doom",
   "title": "LeCun：AI 收益真实，末日概率毫无依据，超级智能会在护栏内为人类工作",
   "dek": "Yann LeCun 认为 AI 的收益已经真实存在，坏的副作用至今很小；末日场景与 p(doom) 估计站不住脚，智能不等于权力与统治，超级智能会在推理时安全护栏的约束下为人类工作，他把这套方案称为目标驱动 AI 架构。",

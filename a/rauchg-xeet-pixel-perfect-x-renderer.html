@@ -1,0 +1,19 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rauch 发布 xeet：Rust 写成的像素级 X 帖子渲染器，约 1 毫秒出图</title><style>body{font-family:Georgia,"Songti SC",serif;max-width:720px;margin:0 auto;padding:24px 18px 60px;color:#1a1a1a;background:#fdfcf9;line-height:1.85}
+article{border-top:3px solid #111;padding-top:8px;margin-bottom:48px}h1{font-size:25px;line-height:1.4}h2{font-size:19px;margin-top:28px}
+.dek{color:#555}.meta{color:#888;font-size:13px}figure img{max-width:100%}figcaption{color:#888;font-size:12px}
+a{color:#0b5cad}.src a{word-break:break-all}.orig{color:#444;font-size:14px}.hd{color:#888;font-size:13px;letter-spacing:2px}
+.card{border-top:1px solid #ddd;padding:14px 0}.card h3{margin:4px 0;font-size:19px}.card p{margin:4px 0;color:#555}</style></head><body><p class="hd">海外长文 · 中文改写</p><article><h1>Rauch 发布 xeet：Rust 写成的像素级 X 帖子渲染器，约 1 毫秒出图</h1>
+<p class="dek">Guillermo Rauch 发布 xeet：Rust 与 WebAssembly 写成的 X 帖子渲染器，不依赖浏览器、网络与系统字体，约 1 毫秒出图，复现 Blink 与 HarfBuzz 的排版细节，靠 Oracle 核对数万条规则来自我验证。</p>
+<p class="meta">Guillermo Rauch（@rauchg）· 原帖 2026-11-16T04:27:37+00:00 · 收录 2026-11-17T08:50:00+08:00</p>
+<p>Vercel CEO Guillermo Rauch 发布了 xeet，一个用 Rust 与 WebAssembly 写成的 X 帖子渲染器，项目地址是 xeet-rs.vercel.app。按他的说法，xeet 不依赖浏览器、网络、文件系统和系统字体，渲染过程是封闭的，输出像素级还原帖子外观。</p>
+<h2>约 1 毫秒出图，比浏览器截图快 100 到 1000 倍</h2>
+<p>帖子给出的数字是，渲染一张帖子图片大约 1 毫秒，Jack Dorsey 的第一条帖子 &quot;setting up my twttr&quot; 只要 0.4 毫秒。Rauch 称，这个速度比启动浏览器再截图快 100 到 1000 倍，准确度相当。</p>
+<h2>复现 Blink 与 HarfBuzz 的排版细节</h2>
+<p>xeet 复现了 Blink 与 HarfBuzz 的文本塑形、1/64 像素行断、RTL 双向文本、28 个 Chirp 字体子集，以及 CJK、数学符号、表情的回退规则和 &quot;Show more&quot; 的展开规则。Rauch 说，这种细节量靠人工工程师几乎不可能完成。</p>
+<h2>自验证仓库：Oracle 核对数万条排版规则</h2>
+<p>xeet 按 &quot;autorepo&quot; 结构组织：一个 Oracle 启动 Chrome，核对数万条文本排版规则；CI 金丝雀跟踪原版的演进，给 Agent 提交带签名的 PR。Rauch 把这套做法称为 &quot;verification engineering&quot;，也就是围绕验证来设计。</p>
+<p>Rauch 还说，X 是全球公共广场，媒介本身就是信息，能在发帖前预览最终效果，对人和 Agent 都有用。想试的人，入口就是 xeet-rs.vercel.app。</p>
+<figure><img src="https://video.twimg.com/amplify_video/2122179763309883393/vid/avc1/1920x1080/mmu2wBrGAXomHUfl.mp4?tag=29" alt="原帖配图" loading="lazy"><figcaption>原文附带一段约 37 秒视频；未查看核验，不描述视频内容。</figcaption></figure>
+<p class="src">原文：<a href="https://x.com/rauchg/status/2122184794209714368">https://x.com/rauchg/status/2122184794209714368</a></p>
+<details><summary>英文原文（完整保留）</summary><p class="orig">Introducing 𝚡𝚎𝚎𝚝: http://xeet-rs.vercel.app.<br><br>A hermetic, pixel-perfect X post renderer in safe Rust / wasm. Zero browser, network, filesystem, system fonts. Renders a post to PNG in ~1ms (and 0.4 ms for @jack&#x27;s &quot;setting up my twttr&quot; 😁).<br><br>X is the global town square, and the medium is the message. Being able to preview what things will look like before posting is great for both humans and agents.<br><br>Rendering with xeet is is 100x-1000x faster than booting up a browser and taking a screenshot, yet it&#x27;s just as accurate.<br><br>It reproduces Blink &amp; HarfBuzz text shaping, 1/64px line breaking, RTL bidi, 28 Chirp font subsets, CJK/Math/Emoji fallbacks, &quot;Show more&quot; rules, etc. It&#x27;s the kind of thing that would be wildly impractical, if not impossible, for a human engineer to pull off.<br><br>Except 𝚡𝚎𝚎𝚝 is structured as an &quot;autorepo.&quot; An oracle boots up Chrome, and verifies tens of thousands of text layout rules. A CI canary then watches the evolution of the original, and files signed PRs for agents to act on. It was conceived from the ground up around &#x27;verification engineering&#x27;, and the result speaks for itself.<br><br>Enjoy!</p></details>
+</article></body></html>
