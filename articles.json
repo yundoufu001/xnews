@@ -1,5 +1,26 @@
 [
  {
+  "id": "emollick-astra-6-2-game-demo",
+  "title": "Mollick 用 Astra 6.2 做了一款游戏：模型很强，但总自作主张",
+  "dek": "Ethan Mollick 让 Astra 6.2 在 Blender 和 Unity 里做了一款海岸警卫队穿越游戏：3D 模型出色、游戏能跑也没有报错，但模型不断擅自加戏，控制起来很费劲。",
+  "author": "Ethan Mollick",
+  "date": "2026-11-17"
+ },
+ {
+  "id": "gpt-6-2-astra-sol-launch",
+  "title": "GPT-6.2 Astra 与 Sol 已上线",
+  "dek": "OpenAI 宣布 GPT-6.2 Astra 和 Sol 现已可用，主打高效与真实场景表现。",
+  "author": "OpenAI",
+  "date": "2026-11-17"
+ },
+ {
+  "id": "openai-embedded-assessments",
+  "title": "OpenAI 启动嵌入式评估：四家外部机构深入查模型对齐与防护",
+  "dek": "OpenAI 与 Apollo Research、METR、Transluce、Goodfire 合作开展嵌入式评估，让外部专家深入接触内部模型与系统，检验对齐情况与防护措施。",
+  "author": "OpenAI",
+  "date": "2026-11-16"
+ },
+ {
   "id": "openai-chatgpt-academic-researchers-200k",
   "title": "OpenAI 把免费前沿模型开放给 20 万科学家，11 月 23 日起申请",
   "dek": "OpenAI 扩大 ChatGPT for Academic Researchers 计划：全球最多 20 万名科学家免费使用前沿模型并配培训与支持，申请 11 月 23 日开放，默认不拿项目数据训练模型。",
