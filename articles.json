@@ -1,5 +1,26 @@
 [
  {
+  "id": "anthropic-ipo-pricing-83",
+  "title": "Anthropic IPO 定价每股 83 美元，明日纳斯达克挂牌",
+  "dek": "Anthropic 宣布 IPO 定价为每股 83 美元，预计次日在纳斯达克开始交易；A 类普通股的注册声明已于 2026 年 11 月 18 日获 SEC 宣布生效，本次发售仅通过招股说明书进行。",
+  "author": "Anthropic",
+  "date": "2026-11-18"
+ },
+ {
+  "id": "levelsio-vibe-coded-flight-game",
+  "title": "levelsio 沙发上随手做的飞行游戏：从马里奥克隆到多人同飞，赚了 20 万美元",
+  "dek": "2025 年 2 月，levelsio 在沙发上用 Claude 折腾马里奥赛车式游戏没做成，转做飞行模拟器后赶上 Claude 3.7 Sonnet，多人同飞走红，一个月靠游戏内飞艇广告收入 8.5 万美元，总计 20 万美元，还顺手投了 Cursor、办了 Vibe Jam。",
+  "author": "@levelsio",
+  "date": "2026-11-17"
+ },
+ {
+  "id": "openai-research-acceleration-jagged-frontier",
+  "title": "OpenAI 发布研究加速报告：智能体任务越做越长，人仍处在研究中心",
+  "dek": "OpenAI 发布新数据：研究人员的 AI 使用量持续指数级上升，智能体能完成的任务越来越长，人类参与仍是研究的核心；安全与对齐上的人力投入增速超过其他任何单一研究领域。",
+  "author": "OpenAI",
+  "date": "2026-11-18"
+ },
+ {
   "id": "emollick-astra-6-2-game-demo",
   "title": "Mollick 用 Astra 6.2 做了一款游戏：模型很强，但总自作主张",
   "dek": "Ethan Mollick 让 Astra 6.2 在 Blender 和 Unity 里做了一款海岸警卫队穿越游戏：3D 模型出色、游戏能跑也没有报错，但模型不断擅自加戏，控制起来很费劲。",
