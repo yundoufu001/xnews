@@ -1,5 +1,26 @@
 [
  {
+  "id": "anthropic-amodei-ipo-remarks",
+  "title": "阿莫代谈 Anthropic 上市：把一百年医学进步压缩进十年，安全执念写进公司基因",
+  "dek": "Anthropic 首席执行官 Dario Amodei 在上市当天发表讲话：从父亲的病谈起，讲 AI 如何把一百年医学进步压缩进十年，以及为什么安全执念要写进公司基因。",
+  "author": "Anthropic",
+  "date": "2026-11-19"
+ },
+ {
+  "id": "openai-amd-chip-design-ppa",
+  "title": "OpenAI 模型帮 AMD 芯片设计提效：旗舰 GPU IP 的 PPA 最高提升 14%",
+  "dek": "OpenAI 模型帮 AMD 旗舰 GPU IP 找到最高 14% 的 PPA 提升，同一套方法也改进了 OpenAI 首颗自研推理芯片 Jalapeño，效果已在真实硅片上验证。",
+  "author": "OpenAI",
+  "date": "2026-11-18"
+ },
+ {
+  "id": "openai-frontier-ai-risk-four-layers",
+  "title": "OpenAI 公开前沿 AI 风险管理四层防线：对齐、安全、拦截与监控",
+  "dek": "OpenAI 研究员 Kai 汇总前沿模型从训练到公开发布的过关路径：能力越强标准越高，靠模型对齐、安全沙箱、拦截保障、监控响应四层防护守住底线。",
+  "author": "Kai",
+  "date": "2026-11-18"
+ },
+ {
   "id": "anthropic-ipo-pricing-83",
   "title": "Anthropic IPO 定价每股 83 美元，明日纳斯达克挂牌",
   "dek": "Anthropic 宣布 IPO 定价为每股 83 美元，预计次日在纳斯达克开始交易；A 类普通股的注册声明已于 2026 年 11 月 18 日获 SEC 宣布生效，本次发售仅通过招股说明书进行。",
