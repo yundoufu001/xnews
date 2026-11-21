@@ -1,5 +1,26 @@
 [
  {
+  "id": "fchollet-arc-flashback-2024-2026",
+  "title": "Chollet 回望 2024：两年半里 ARC 三代基准全满，英伟达股价却跌了 5%",
+  "dek": "François Chollet 把时间拨回 2024 年 6 月 14 日：当时前沿模型在 ARC 1 上得分只有约 5%，推理模型与编程智能体都不存在；按他列出的变化推演到 2026 年 11 月，ARC 1、ARC 2、ARC 3 全部饱和，OpenAI 估值涨到 15 倍、Anthropic 涨到 85 倍，而英伟达股价同期反而跌了 5%。",
+  "author": "François Chollet",
+  "date": "2026-11-20"
+ },
+ {
+  "id": "goodfire-interpreting-inkling-2-mini",
+  "title": "Goodfire 解读循环模型 Inkling 2 Mini：一层能写回自身，也能读到后面的层",
+  "dek": "Goodfire 拿到 Thinking Machines 的 Inkling 2 Mini 早期使用权限，研究它的内部机制：循环模型里一层可以写回自身，也可以读取来自后续层的信息；团队由此对理解 Transformer 内部机制的前景表示乐观。",
+  "author": "Goodfire",
+  "date": "2026-11-20"
+ },
+ {
+  "id": "openai-combatting-adversarial-distillation",
+  "title": "OpenAI 公布对抗蒸馏研究：能力可以被复制，防护不会自动跟上",
+  "dek": "OpenAI 分享了一项新研究，讲他们如何对抗针对自家模型的蒸馏：蒸馏能在不带走原有安全防护的情况下复现强大的 AI 能力，研究覆盖能力如何转移、如何检测与打断有组织的蒸馏尝试。",
+  "author": "OpenAI",
+  "date": "2026-11-20"
+ },
+ {
   "id": "anthropic-amodei-ipo-remarks",
   "title": "阿莫代谈 Anthropic 上市：把一百年医学进步压缩进十年，安全执念写进公司基因",
   "dek": "Anthropic 首席执行官 Dario Amodei 在上市当天发表讲话：从父亲的病谈起，讲 AI 如何把一百年医学进步压缩进十年，以及为什么安全执念要写进公司基因。",

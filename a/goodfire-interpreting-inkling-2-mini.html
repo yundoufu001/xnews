@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Goodfire 解读循环模型 Inkling 2 Mini：一层能写回自身，也能读到后面的层</title><style>body{font-family:Georgia,"Songti SC",serif;max-width:720px;margin:0 auto;padding:24px 18px 60px;color:#1a1a1a;background:#fdfcf9;line-height:1.85}
+article{border-top:3px solid #111;padding-top:8px;margin-bottom:48px}h1{font-size:25px;line-height:1.4}h2{font-size:19px;margin-top:28px}
+.dek{color:#555}.meta{color:#888;font-size:13px}figure img{max-width:100%}figcaption{color:#888;font-size:12px}
+a{color:#0b5cad}.src a{word-break:break-all}.orig{color:#444;font-size:14px}.hd{color:#888;font-size:13px;letter-spacing:2px}
+.card{border-top:1px solid #ddd;padding:14px 0}.card h3{margin:4px 0;font-size:19px}.card p{margin:4px 0;color:#555}</style></head><body><p class="hd">海外长文 · 中文改写</p><article><h1>Goodfire 解读循环模型 Inkling 2 Mini：一层能写回自身，也能读到后面的层</h1>
+<p class="dek">Goodfire 拿到 Thinking Machines 的 Inkling 2 Mini 早期使用权限，研究它的内部机制：循环模型里一层可以写回自身，也可以读取来自后续层的信息；团队由此对理解 Transformer 内部机制的前景表示乐观。</p>
+<p class="meta">Goodfire（@GoodfireAI）· 原帖 2026-11-20T20:16:33+00:00 · 收录 2026-11-21T08:25:00+08:00</p>
+<p>循环模型有点怪。一层可以写回自身，也可以读取来自后续层的信息。Goodfire 在 11 月 20 日发帖，讲他们拿到 Thinking Machines 的 Inkling 2 Mini 早期使用权限后，研究了它的内部机制。</p>
+<h2>研究的是信息如何在层与循环之间流动</h2>
+<p>Goodfire 的研究对象是 Inkling 2 Mini，一个循环模型。团队想弄清它如何在层、区块与循环之间协调信息流，帖子附上了完整研究链接。</p>
+<h2>乐观的理由</h2>
+<p>研究 Inkling 2 Mini 让 Goodfire 对一件事感到乐观：Transformer 继续演变，理解其内部机制的能力也能跟着演变。帖子没有展开具体的机制发现，想看细节要读 Goodfire 官网的全文。</p>
+<h2>对读者来说，价值在方法不在结论</h2>
+<p>这篇帖子的价值在方法不在结论。拿到新架构的早期使用权限，直接研究信息如何在层间流动，比只看基准分数更能判断理解能力有没有跟上架构演变。想验证结论，先读全文再看它给出的方法能不能复现。</p>
+<figure><img src="https://video.twimg.com/tweet_video/HXmDXi7a4AAbsol.mp4" alt="原帖配图" loading="lazy"><figcaption>原文附带一段动图（1160x1222）；未查看核验，不描述动图内容。</figcaption></figure>
+<p class="src">原文：<a href="https://x.com/GoodfireAI/status/2123873150803100059">https://x.com/GoodfireAI/status/2123873150803100059</a></p>
+<details><summary>英文原文（完整保留）</summary><p class="orig">Looped models are weird. A layer can write to itself or read from &quot;future&quot; layers.<br><br>@thinkymachines gave us early access to Inkling 2 Mini so we could study its inner mechanisms. We uncover how it coordinates information flow across layers, blocks, and loops.<br><br>Studying Inkling 2 Mini gave us cause for optimism: as transformers continue to evolve, we believe our ability to understand their internal mechanisms can evolve with them.<br><br>Read the full post: https://www.goodfire.com/research/interpreting-inkling-2-mini/</p></details>
+</article></body></html>
