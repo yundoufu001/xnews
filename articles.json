@@ -1,5 +1,26 @@
 [
  {
+  "id": "fchollet-ai-buildout-gpu-supply",
+  "title": "Chollet：AI 基建没有结束，GPU 现货价还在涨，产能已卖到 2029 年",
+  "dek": "François Chollet 说，GPU 现货价还在涨，HBM 与 DRAM 产能实际已卖到 2029 年，芯片与内存供应预计紧到 2030 年代；前沿训练算力约每 5 个月翻一番，推理利润率在 70% 到 85% 之间，他说自己算不上 AI 鼓吹者，只是在陈述现实。",
+  "author": "François Chollet",
+  "date": "2026-11-21"
+ },
+ {
+  "id": "lecun-ebm-deep-learning-course",
+  "title": "LeCun：二十年 NYU 深度学习课的精髓就是能量模型",
+  "dek": "Yann LeCun 说，他在 NYU 教了约二十年的深度学习课，精髓就是能量模型这一个统一框架：分类、回归、结构化预测、无监督与自监督学习都能放进去理解；他还给出了课程、教材、讲座与 2006 年教程论文四处延伸阅读。",
+  "author": "Yann LeCun",
+  "date": "2026-11-21"
+ },
+ {
+  "id": "mollick-autonomous-ai-research-vs-economic-tasks",
+  "title": "Mollick：自主 AI 研究进展与经济价值任务进展未必同步",
+  "dek": "Ethan Mollick 说，追踪 AI 能自主完成多少工作很关键，但只盯最顶尖机构的研究任务会低估 AI 在经济价值任务上的能力；MirrorCode 显示 AI 能自主复现人类估计要花 2 到 17 周的软件，OpenAI 报告里研究者估计编程智能体把一个月的工作量压到了三分之一。",
+  "author": "Ethan Mollick",
+  "date": "2026-11-21"
+ },
+ {
   "id": "fchollet-arc-flashback-2024-2026",
   "title": "Chollet 回望 2024：两年半里 ARC 三代基准全满，英伟达股价却跌了 5%",
   "dek": "François Chollet 把时间拨回 2024 年 6 月 14 日：当时前沿模型在 ARC 1 上得分只有约 5%，推理模型与编程智能体都不存在；按他列出的变化推演到 2026 年 11 月，ARC 1、ARC 2、ARC 3 全部饱和，OpenAI 估值涨到 15 倍、Anthropic 涨到 85 倍，而英伟达股价同期反而跌了 5%。",
