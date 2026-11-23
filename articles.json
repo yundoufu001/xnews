@@ -1,5 +1,26 @@
 [
  {
+  "id": "jepa-slow-svreg-world-map",
+  "title": "JEPA 能在脑子里学会一张世界地图吗：Slow SVReg 让潜空间既保内容又保几何",
+  "dek": "LeCun 等人的新论文提出 Slow SVReg，解决 JEPA 防塌缩里的内容与几何取舍：1P 中型迷宫成功率 92.9%，城市漫步定位误差 1.6 米。",
+  "author": "Turing Post (Ksenia Se)",
+  "date": "2026-11-22"
+ },
+ {
+  "id": "rauchg-stealth-models-data-exfiltration",
+  "title": "Rauch 警告：免费跑隐形模型的代价，可能是你的数据去了另一个大陆",
+  "dek": "Vercel CEO Guillermo Rauch 11 月 22 日发帖，称打着免费与零数据留存旗号的隐形模型是工业规模数据外泄的机制，Dragos 的研究似乎印证了这一点；Vercel AI Gateway 则靠真实用量积累了规模。",
+  "author": "Guillermo Rauch",
+  "date": "2026-11-22"
+ },
+ {
+  "id": "sama-shared-norms-frontier-models",
+  "title": "奥特曼提议：前沿模型开发商先立一条共同红线，跨过去之前先解决可监控性",
+  "dek": "Sam Altman 11 月 22 日发帖，提议前沿模型开发商共同制定评估与红队安全案例的共享标准，并以困惑度等指标设一条开发上限，在理解与监控 AI 行为的能力达到具体里程碑之前不越过。",
+  "author": "Sam Altman",
+  "date": "2026-11-22"
+ },
+ {
   "id": "fchollet-ai-buildout-gpu-supply",
   "title": "Chollet：AI 基建没有结束，GPU 现货价还在涨，产能已卖到 2029 年",
   "dek": "François Chollet 说，GPU 现货价还在涨，HBM 与 DRAM 产能实际已卖到 2029 年，芯片与内存供应预计紧到 2030 年代；前沿训练算力约每 5 个月翻一番，推理利润率在 70% 到 85% 之间，他说自己算不上 AI 鼓吹者，只是在陈述现实。",
