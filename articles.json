@@ -1,5 +1,26 @@
 [
  {
+  "id": "emollick-ai-shopping-preferences-fragile",
+  "title": "Mollick：AI 购物偏好一碰就碎，换个网站顺序或标题，推荐就变了",
+  "dek": "Ethan Mollick 发帖说，他团队在 AI 购物研究里发现，智能体偏好里的每种规律都极易瓦解：换一下 AI 看到的网站顺序，先和 AI 聊几句，或改一个标题，AI 的推荐就会变。",
+  "author": "Ethan Mollick",
+  "date": "2026-11-23"
+ },
+ {
+  "id": "fchollet-two-adaptation-timescales",
+  "title": "Chollet：所有智能系统都只有两个适应时间尺度，AI 直到 2024 年底才补上第一个",
+  "dek": "François Chollet 发帖说，他见过的所有智能系统都只有两个适应时间尺度：即时情境建模与离线提炼长期经验；现代 AI 直到 2024 年底才补上前者，在此之前只有存储与检索。",
+  "author": "François Chollet",
+  "date": "2026-11-23"
+ },
+ {
+  "id": "gemini-agents-quantum-algorithms-lean",
+  "title": "Gemini 智能体找到更快量子算法，三类模拟算力成本降 2.5 到 10.9 倍",
+  "dek": "Pushmeet Kohli 宣布，Gemini 驱动的智能体在量子电路优化上找到新算法，核聚变模拟、光化学、药物代谢分子模拟的估算算力成本分别降低 10.9 倍、8.1 倍和 2.5 倍，每条量子电路结果都经 Lean 数学证明。",
+  "author": "Pushmeet Kohli",
+  "date": "2026-11-23"
+ },
+ {
   "id": "jepa-slow-svreg-world-map",
   "title": "JEPA 能在脑子里学会一张世界地图吗：Slow SVReg 让潜空间既保内容又保几何",
   "dek": "LeCun 等人的新论文提出 Slow SVReg，解决 JEPA 防塌缩里的内容与几何取舍：1P 中型迷宫成功率 92.9%，城市漫步定位误差 1.6 米。",
