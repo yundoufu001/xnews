@@ -1,0 +1,20 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Anthropic 回到神经元基础：可解释性的老路其实还没走完</title><style>body{font-family:Georgia,"Songti SC",serif;max-width:720px;margin:0 auto;padding:24px 18px 60px;color:#1a1a1a;background:#fdfcf9;line-height:1.85}
+article{border-top:3px solid #111;padding-top:8px;margin-bottom:48px}h1{font-size:25px;line-height:1.4}h2{font-size:19px;margin-top:28px}
+.dek{color:#555}.meta{color:#888;font-size:13px}figure img{max-width:100%}figcaption{color:#888;font-size:12px}
+a{color:#0b5cad}.src a{word-break:break-all}.orig{color:#444;font-size:14px}.hd{color:#888;font-size:13px;letter-spacing:2px}
+.card{border-top:1px solid #ddd;padding:14px 0}.card h3{margin:4px 0;font-size:19px}.card p{margin:4px 0;color:#555}</style></head><body><p class="hd">海外长文 · 中文改写</p><article><h1>Anthropic 回到神经元基础：可解释性的老路其实还没走完</h1>
+<p class="dek">Anthropic 研究员重新审视神经元基础的可解释性。过去两年里，研究者陆续放弃了这条路，理由有三条：单个神经元常对多个不相关输入放电、同一概念的表示方式会在单个模型的两层神经元之间变化、事实分散在很多神经元上。换个角度看每个神经元对模型输出的贡献后，三条理由都比原先以为的要小。</p>
+<p class="meta">Anthropic（@AnthropicAI）· 原帖 2026-11-24T23:05:42+00:00 · 收录 2026-11-25T08:35:00+08:00</p>
+<p>Anthropic 研究员发布了一项新的可解释性研究，题目是回到神经元基础。理解模型内部发生了什么，有助于让模型更安全。神经元是模型的基本单元，看神经元是最直接的切入点。</p>
+<h2>研究者为什么一度放弃神经元</h2>
+<p>早期的可解释性工作就是从神经元入手的。但过去两年里，研究者大都放下了这个思路，原因有三条。第一，单个神经元常常对多个不相关的输入放电。第二，同一个概念的表示方式，会在单个模型的两层神经元之间发生变化。第三，事实似乎分散在很多神经元上。</p>
+<h2>换一个角度：看神经元对输出的贡献</h2>
+<p>研究团队重新审视了这三条理由，办法是看每个神经元对模型输出做了什么贡献，而不只看是什么让这个神经元放电。结果是，三条理由都比原先以为的要小。神经元很少同时叠加两个不相关的概念；神经元输出的含义在大多数层之间大致保持一致；事实虽然广泛分布在很多神经元上，但仍然可以读出来。</p>
+<h2>第二篇：不用额外训练就能用上</h2>
+<p>在第二篇帖子里，研究团队把这些发现拿来实际使用。在不做额外训练的情况下，开源权重模型里的神经元帮上了三个忙：检测有害文本、引导模型行为、发现微调模型里藏着的行为。</p>
+<h2>这条老路不用扔，换个量法还能继续挖</h2>
+<p>做可解释性工作的人可以直接拿这两篇当起点：神经元这条老路不用扔，换个量法还能继续挖，而且不用重新训练就能在开源模型上试。两篇帖子的链接都在文末原文里，第一篇讲理论，第二篇讲应用。</p>
+
+<p class="src">原文：<a href="https://x.com/AnthropicAI/status/2125365268381929637">https://x.com/AnthropicAI/status/2125365268381929637</a></p>
+<details><summary>英文原文（完整保留）</summary><p class="orig">New Anthropic Fellows research: Returning to the neuron basis for interpretability<br><br>Understanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that, but over the past couple years, researchers largely moved on from that idea, for three reasons: a single neuron often fires on several unrelated inputs, the way a concept is represented can change between two layers of neurons within a single model, and facts seem to be spread across many neurons.<br><br>We re-examined these problems by looking at what each neuron contributed to the model’s outputs, not just what caused that neuron to fire. All three problems turned out to be smaller than assumed. Neurons rarely add two unrelated concepts at once, their outputs mean roughly the same thing across most layers, and facts, though widely distributed across neurons, are still readable.<br><br>In a second post, we put these findings to use. With no extra training, neurons in open-weight models helped us to detect harmful text, steer behavior, and find hidden behaviors in finetuned models.<br><br>Part 1: https://alignment.anthropic.com/2026/neuron-basis-theory/<br>Part 2: https://alignment.anthropic.com/2026/neuron-basis-applications/</p></details>
+</article></body></html>

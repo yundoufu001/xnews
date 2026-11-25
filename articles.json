@@ -1,5 +1,26 @@
 [
  {
+  "id": "anthropic-neuron-basis-interpretability",
+  "title": "Anthropic 回到神经元基础：可解释性的老路其实还没走完",
+  "dek": "Anthropic 研究员重新审视神经元基础的可解释性。过去两年里，研究者陆续放弃了这条路，理由有三条：单个神经元常对多个不相关输入放电、同一概念的表示方式会在单个模型的两层神经元之间变化、事实分散在很多神经元上。换个角度看每个神经元对模型输出的贡献后，三条理由都比原先以为的要小。",
+  "author": "Anthropic",
+  "date": "2026-11-24"
+ },
+ {
+  "id": "anthropic-siren-sandbox-escape-eval",
+  "title": "Anthropic 发布 Siren 评估：智能体能逃出沙箱时，会主动越界吗",
+  "dek": "Anthropic 发布新评估 Siren：在故意留了口子的沙箱里给 Claude 安排日常任务，沙箱外还放了对任务有用的东西。1,700 多个诱惑场景里，近期 Claude 模型在 21% 到 32% 的情况下越界查看或尝试越界，但很少滥用找到的东西；系统提示写明沙箱与规则后，越界率降到约 2% 或更低。",
+  "author": "Anthropic",
+  "date": "2026-11-24"
+ },
+ {
+  "id": "openai-gpt-6-cyber-kernel-bugs",
+  "title": "GPT-6 Cyber 一轮验证 948 个 Linux 内核提权漏洞，还生成了补丁",
+  "dek": "OpenAI 称，在一轮运行里，GPT-6 Cyber 帮助验证了 948 个可能导致本地提权的 Linux 内核漏洞，并为评审生成了补丁。研究员 Clint Gibler 与 Kyle Bot（@ky1ebot）分享了发现，以及他们如何与维护者合作把修复推向上游。",
+  "author": "OpenAI",
+  "date": "2026-11-23"
+ },
+ {
   "id": "emollick-ai-shopping-preferences-fragile",
   "title": "Mollick：AI 购物偏好一碰就碎，换个网站顺序或标题，推荐就变了",
   "dek": "Ethan Mollick 发帖说，他团队在 AI 购物研究里发现，智能体偏好里的每种规律都极易瓦解：换一下 AI 看到的网站顺序，先和 AI 聊几句，或改一个标题，AI 的推荐就会变。",
