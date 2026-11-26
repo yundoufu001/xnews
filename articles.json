@@ -1,5 +1,26 @@
 [
  {
+  "id": "bubeck-matrix-multiplication-exponent-9-4",
+  "title": "矩阵乘法指数 9/4 被证实是最优：下界空白填上了",
+  "dek": "微软研究员 Sebastien Bubeck 宣布，10 月 6 日那次发布里模型给出的矩阵乘法指数上界 9/4，如今被证实是最优的。此前这个指数的下界没有任何已知结果，模型随后一直在攻下界。按 Yin Tat Lee 等人的旧结果，这也意味着线性规划可以在 n 的 9/4 次方时间内求解。",
+  "author": "Sebastien Bubeck",
+  "date": "2026-11-25"
+ },
+ {
+  "id": "openai-gpt-6-protein-design-preprint",
+  "title": "OpenAI 发布 GPT-6 蛋白质设计预印本：不用专业生物模型，湿实验已验证",
+  "dek": "OpenAI 发布新预印本，称 GPT-6 系列模型具备内在的蛋白质设计能力：只用推理和代码就能设计新的蛋白质形状与序列，不调用专门的生物学模型生成，相关结果已在湿实验里得到验证。",
+  "author": "OpenAI",
+  "date": "2026-11-24"
+ },
+ {
+  "id": "philschmid-google-workspace-mcp-ga",
+  "title": "Google Workspace MCP 服务器正式发布：个人模式一键接入",
+  "dek": "Google Workspace 的 MCP 服务器与 gwscli 今天正式发布。新的一键个人模式不用企业版套餐，也不用绑结算卡。8 个服务器覆盖 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat 与 Tasks，免费额度是每个产品每天 5,000 次请求，发送与分享操作内置人工确认。",
+  "author": "Philipp Schmid",
+  "date": "2026-11-24"
+ },
+ {
   "id": "anthropic-neuron-basis-interpretability",
   "title": "Anthropic 回到神经元基础：可解释性的老路其实还没走完",
   "dek": "Anthropic 研究员重新审视神经元基础的可解释性。过去两年里，研究者陆续放弃了这条路，理由有三条：单个神经元常对多个不相关输入放电、同一概念的表示方式会在单个模型的两层神经元之间变化、事实分散在很多神经元上。换个角度看每个神经元对模型输出的贡献后，三条理由都比原先以为的要小。",
