@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Patrick Collison 做了一个人类视角的棋局评估条 HumanFish</title><style>body{font-family:Georgia,"Songti SC",serif;max-width:720px;margin:0 auto;padding:24px 18px 60px;color:#1a1a1a;background:#fdfcf9;line-height:1.85}
+article{border-top:3px solid #111;padding-top:8px;margin-bottom:48px}h1{font-size:25px;line-height:1.4}h2{font-size:19px;margin-top:28px}
+.dek{color:#555}.meta{color:#888;font-size:13px}figure img{max-width:100%}figcaption{color:#888;font-size:12px}
+a{color:#0b5cad}.src a{word-break:break-all}.orig{color:#444;font-size:14px}.hd{color:#888;font-size:13px;letter-spacing:2px}
+.card{border-top:1px solid #ddd;padding:14px 0}.card h3{margin:4px 0;font-size:19px}.card p{margin:4px 0;color:#555}</style></head><body><p class="hd">海外长文 · 中文改写</p><article><h1>Patrick Collison 做了一个人类视角的棋局评估条 HumanFish</h1>
+<p class="dek">Stripe CEO Patrick Collison 在感恩节早晨做了一个小项目 HumanFish：预测棋局结果时把棋手剩余时间、等级分、走法明显程度和后续路径宽窄都算进去，相比电视转播常用的评估条有所改进。项目用 Gemini 4 Neon 花几小时写成，完整代码已公开。</p>
+<p class="meta">Patrick Collison（@patrickc）· 原帖 2026-11-26T19:27:45+00:00 · 收录 2026-11-28T08:35:00+08:00</p>
+<p>感恩节早晨，Patrick Collison 花几小时做了一个小项目 HumanFish，起因是世界象棋锦标赛正在进行。他在帖子里说，自己一直想要一条人类视角的棋局评估条。</p>
+<h2>评估标准换成人类的视角</h2>
+<p>电视转播常用的评估条按引擎视角给出胜率，HumanFish 改按人类棋手对局的实际情况预测结果。预测时同时看四样东西：棋手剩下的时间、双方等级分、当前走法有多明显、走完这步之后局面还剩多宽的选择空间。Collison 说，这次尝试相比标准转播评估条有一定程度的改进。</p>
+<h2>顺带试了几个小时 Gemini 4 Neon</h2>
+<p>做这个项目也是顺便试用 Gemini 4 Neon 的机会。Collison 经 OpenRouter 调用模型，用了几个小时，评价说用起来很顺手，全程没有离开过命令行。Vercel 与 Stripe Projects 也帮了忙。</p>
+<p>完整代码已经公开在 humanfish.vercel.app/methodology。Collison 在帖子里说，希望有人接手采用、改进，或者在它的基础上继续扩展。</p>
+
+<p class="src">原文：<a href="https://x.com/patrickc/status/2126035198571946229">https://x.com/patrickc/status/2126035198571946229</a></p>
+<details><summary>英文原文（完整保留）</summary><p class="orig">Thanksgiving morning project in honor of the World Chess Championship: <br>http://humanfish.vercel.app/methodology.<br><br>I’ve long wanted a human eval bar for chess games. HumanFish predicts game outcomes while taking into account clock time, player ELO, move obviousness, narrowness of the subsequent path, etc. This attempt seems to provide somewhat meaningful improvement over the standard broadcast eval bar.<br><br>Building it was also a chance to test Gemini 4 Neon for a few hours, which was very easy thanks to @OpenRouter. (It worked well!) Full code at the link — would be excited to see others adopt/improve/build on this.<br><br>(Thanks also to @vercel and Stripe Projects. I didn’t have to leave the CLI at any point.)</p></details>
+</article></body></html>

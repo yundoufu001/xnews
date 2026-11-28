@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>给 Gemini 4 Neon 的 16 行深度研究技能：五条规则，盲评九成胜出</title><style>body{font-family:Georgia,"Songti SC",serif;max-width:720px;margin:0 auto;padding:24px 18px 60px;color:#1a1a1a;background:#fdfcf9;line-height:1.85}
+article{border-top:3px solid #111;padding-top:8px;margin-bottom:48px}h1{font-size:25px;line-height:1.4}h2{font-size:19px;margin-top:28px}
+.dek{color:#555}.meta{color:#888;font-size:13px}figure img{max-width:100%}figcaption{color:#888;font-size:12px}
+a{color:#0b5cad}.src a{word-break:break-all}.orig{color:#444;font-size:14px}.hd{color:#888;font-size:13px;letter-spacing:2px}
+.card{border-top:1px solid #ddd;padding:14px 0}.card h3{margin:4px 0;font-size:19px}.card p{margin:4px 0;color:#555}</style></head><body><p class="hd">海外长文 · 中文改写</p><article><h1>给 Gemini 4 Neon 的 16 行深度研究技能：五条规则，盲评九成胜出</h1>
+<p class="dek">Philipp Schmid 团队给 Gemini 4 Neon 做了一个 16 行的实验性深度研究技能：问题从 3 到 5 个角度切入，子智能体并行搜索设 8 到 12 步上限，只认原始申报文件和 PDF，报告两句话总结并注明冲突。在数百次盲评里，它超过 90% 的时间比不用技能更受青睐。</p>
+<p class="meta">Philipp Schmid（@_philschmid）· 原帖 2026-11-27T13:51:25+00:00 · 收录 2026-11-28T08:35:00+08:00</p>
+<p>Philipp Schmid 与团队给 Gemini 4 Neon 做了一个实验性的深度研究技能，目标是把写代码的智能体变成研究员。整个技能只有 16 行。</p>
+<h2>五条设计要点</h2>
+<p>技能围绕五点展开。第一是范围：问题要简单直接，宽泛的题目从 3 到 5 个角度切入。第二是子智能体：并行搜索或浏览，每次任务设 8 到 12 步的上限。第三是来源：只用原始申报文件和 PDF，不用搜索摘要。第四是速度：取消停滞的工作进程，最多只做一次后续追问。第五是报告：两句话总结、附内联链接、注明发现的冲突。</p>
+<h2>盲评里多数时候更受青睐</h2>
+<p>Schmid 在帖子里给出了一组他自己的评估结果：在数百次盲评里，这个技能超过 90% 的时间比不用技能更受青睐。他同时说明，这仍是一个实验性技能。</p>
+<p>对想复现的人来说，关键不在堆更多规则，而在收紧这五处：限定角度数量、限定步数、只认原始来源、及时砍掉停滞的进程、报告里把冲突写清楚。</p>
+
+<p class="src">原文：<a href="https://x.com/_philschmid/status/2126312943520243885">https://x.com/_philschmid/status/2126312943520243885</a></p>
+<details><summary>英文原文（完整保留）</summary><p class="orig">We built an experimental deep research skill for Gemini 4 Neon, turning coding agents into researchers 🚀<br><br>What the skill focuses on:<br>1. Scope: simple direct, broad ones in 3-5 angles<br>2. Subagents: parallel search or browser, 8-12 step cap<br>3. Sources: primary filings and PDFs, no search snippets<br>4. Speed: cancel stalled workers, max 1 follow-up<br>5. Report: 2-sentence summary, inline links, conflicts noted<br><br>It&#x27;s 16 lines, preferred over 90% of the time vs no skill in hundreds of blind evals.</p></details>
+</article></body></html>

@@ -1,5 +1,47 @@
 [
  {
+  "id": "patrickc-humanfish-chess-eval",
+  "title": "Patrick Collison 做了一个人类视角的棋局评估条 HumanFish",
+  "dek": "Stripe CEO Patrick Collison 在感恩节早晨做了一个小项目 HumanFish：预测棋局结果时把棋手剩余时间、等级分、走法明显程度和后续路径宽窄都算进去，相比电视转播常用的评估条有所改进。项目用 Gemini 4 Neon 花几小时写成，完整代码已公开。",
+  "author": "Patrick Collison",
+  "date": "2026-11-26"
+ },
+ {
+  "id": "philschmid-bullish-mcp-2027",
+  "title": "Schmid 长文：为什么 2027 年的 MCP 比以往更值得看好",
+  "dek": "Philipp Schmid 在长文里论证自己为何比以往更看好 MCP：Linear 与 Notion 的智能体已产出约一半 issue，Atlassian 每天超 500 万次工具调用，Neon 用量每周增长 14%。Code Mode、Skills 扩展、Events 事件机制与 MCP Apps 四项演进，正在把 MCP 从远程工具调用推向完整的智能体运行时。",
+  "author": "Philipp Schmid",
+  "date": "2026-11-26"
+ },
+ {
+  "id": "philschmid-gemini-4-neon-deep-research-skill",
+  "title": "给 Gemini 4 Neon 的 16 行深度研究技能：五条规则，盲评九成胜出",
+  "dek": "Philipp Schmid 团队给 Gemini 4 Neon 做了一个 16 行的实验性深度研究技能：问题从 3 到 5 个角度切入，子智能体并行搜索设 8 到 12 步上限，只认原始申报文件和 PDF，报告两句话总结并注明冲突。在数百次盲评里，它超过 90% 的时间比不用技能更受青睐。",
+  "author": "Philipp Schmid",
+  "date": "2026-11-27"
+ },
+ {
+  "id": "amodei-ai-democratic-governance",
+  "title": "Amodei：AI 治理必须走合法民主程序，把自由交给 AI 是个坏主意",
+  "dek": "Amodei 公开回应外界对他的指责：他从不认为应该把人类自由交给 AI 系统，AI 必须由合法民主程序治理；他同时区分了“治理权交给 AI”和“具体任务自动化”，后者他持保留态度。",
+  "author": "Dario Amodei",
+  "date": "2026-11-25"
+ },
+ {
+  "id": "karpathy-us-civ-real-data-map",
+  "title": "Karpathy 用真实美国数据做了一张《文明》式地图：31 个数据源拼成 25 公里六边形网格",
+  "dek": "Karpathy 让 Claude 用 31 个美国真实数据源拼了一张《文明》风格的地图：海拔、地形、GDP、就业、电厂、港口、灾害全部落到 25 公里六边形网格上，圣何塞每 4 名工人里就有 1 名工程师、程序员或科学家，地图已上线 karpathy.ai/usaciv/。",
+  "author": "Andrej Karpathy",
+  "date": "2026-11-26"
+ },
+ {
+  "id": "philschmid-gemini-4-neon-5-habits",
+  "title": "Schmid 换用 Gemini 4 Neon 后改掉的 5 个习惯：少给规则，模型反而更顺",
+  "dek": "Schmid 用 Gemini 4 Neon 跑了几周评测、每天构建之后发现，给旧模型写的护栏、技能与规则反而拖慢了新模型。他改掉的 5 个习惯是：删掉死板规则、工具规则只写一次、技能按需加载、用图像视频做验证、跨阶段交接而不压缩上下文。",
+  "author": "Philipp Schmid",
+  "date": "2026-11-25"
+ },
+ {
   "id": "bubeck-matrix-multiplication-exponent-9-4",
   "title": "矩阵乘法指数 9/4 被证实是最优：下界空白填上了",
   "dek": "微软研究员 Sebastien Bubeck 宣布，10 月 6 日那次发布里模型给出的矩阵乘法指数上界 9/4，如今被证实是最优的。此前这个指数的下界没有任何已知结果，模型随后一直在攻下界。按 Yin Tat Lee 等人的旧结果，这也意味着线性规划可以在 n 的 9/4 次方时间内求解。",
